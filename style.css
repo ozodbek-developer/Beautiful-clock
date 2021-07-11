@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     min-height: 100vh;
     animation: anim 12s linear infinite alternate;
 }
@@ -42,7 +43,7 @@ body {
     justify-content: center;
     align-items: center;
     background: url(clock.svg);
-    background-size: cover;
+    background-size: contain;
     opacity: 0.8;
     border: 0.5vh solid #091921;
     border-radius: 50%;
