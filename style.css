@@ -38,14 +38,14 @@ body {
 
 .clock {
     width: 70vh;
-    height: 70vh;
+    min-height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background: url(clock.svg);
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     opacity: 0.8;
-    border: 0.5vh solid #091921;
     border-radius: 50%;
 }
 .clock::before {
